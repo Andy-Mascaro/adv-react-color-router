@@ -12,11 +12,8 @@ import {
 import styles from './App.css';
 
 function RGB() {
-  const { r } = useParams();
-  const { g } = useParams();
-  const { b } = useParams();
-
-
+  const { r, g, b } = useParams();
+  
   // 🚨 Get values for r, g, and b from params
   // 🚨 Uncomment next lines after importing
   return (
