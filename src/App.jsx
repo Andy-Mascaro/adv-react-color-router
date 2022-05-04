@@ -27,9 +27,13 @@ function RGB() {
 }
 
 function ScreenColor() {
-  return <div>{ <Route path="/rgb/:r/:g/:b">
+  return <div>
+   <Switch> 
+  <Route path="/rgb/:r/:g/:b">
     <RGB/>
-  </Route> }</div>;
+  </Route> 
+  </Switch>
+  </div>;
 }
 
 export default function App() {
